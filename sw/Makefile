@@ -1,0 +1,9 @@
+DEVICE = STM32F411xE
+FLASH  = 0x08000000
+HSE_VAL = 25000000
+USE_ST_CMSIS = true
+USE_DSP = true
+CPPFLAGS += -D STM32F411xE -D STM32F4 -D USBD_VBUS_DETECT #-D DEBUG
+
+# Include the main makefile
+include STM32-base/make/common.mk
