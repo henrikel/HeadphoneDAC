@@ -8,3 +8,6 @@ The headphone amplifier is a class A output design, using a NE5534 opamp as volt
 The power supply is a simple design giving +/-12 V and +5V, with a toroidal transformer and LM317/337 and L7812/7809/7805.
 
 I am pretty happy with this build and think it sounds really good with my Beyerdynamic DT880 Pro headphones (250 ohms). I had some problems with ground loops and interference from the transformer in the case I built for the amplifier, but I think I have sorted out most of that now with some tweaking of the orientation of the transformer as well as appropriate grounding. What remains is an irritating high-pitched interference obviously coming from the digital parts of the controller module, which oddly enough can only be heard when muting the sound (if streaming is on, but no music is playing or very low levels of music, I can't hear it).
+<p align="center">
+  <img src="images/imge.jpg" width="350" title="Prototype">
+</p>
